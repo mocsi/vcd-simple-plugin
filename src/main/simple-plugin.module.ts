@@ -6,7 +6,7 @@ import { VcdApiClient, VcdSdkModule } from "@vcd/sdk";
 import { ExtensionNavRegistration, EXTENSION_ROUTE } from "@vcd/sdk/common";
 import { PluginModule } from "@vcd/sdk/core";
 import { TranslateService } from "@vcd/sdk/i18n";
-import { ClarityModule } from "clarity-angular";
+import { ClarityModule } from "@clr/angular";
 import { SimpleComponent } from "./simple/simple.component";
 
 const ROUTES: Routes = [
@@ -33,8 +33,8 @@ export class SimplePluginModule extends PluginModule {
         this.registerExtension(<ExtensionNavRegistration>{
             path: extensionRoute,
             icon: "page",
-            nameCode: "nav.label",
-            descriptionCode: "nav.description"
+            nameCode: "simple.nav.label",
+            descriptionCode: "simple.nav.description"
         });
     }
 }

@@ -1,6 +1,4 @@
 .awcache/
 node_modules/
 dist/
-manage_plugin.ini
-manage_plugin.ini.template
-manage_plugin.py
+manage_plugin.json

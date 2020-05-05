@@ -1,5 +1,5 @@
 {
-    "urn": "vmware:vcloud:plugin:seed",
+    "urn": "vmware:vcloud:plugin:simple",
     "name": "Simple plugin",
     "containerVersion": "9.1.0",
     "version": "1.0.0",
@@ -10,5 +10,5 @@
     "license": "Copyright (C) VMware 2017-2018.  All rights reserved.",
     "link": "http://www.vmware.com/support",
     "module": "SimplePluginModule",
-    "route": "plugin"
+    "route": "plugin-simple"
 }
